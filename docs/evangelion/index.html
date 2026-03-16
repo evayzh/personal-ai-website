@@ -5,15 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>evangelion</title>
     <style>
-        @font-face {
-            font-family: 'Iosevka';
-            font-display: swap;
-            font-weight: 400;
-            font-style: normal;
-            src: url('Iosevka-Regular.woff2') format('woff2');
-        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html, body { background: #000; height: 100%; font-family: 'Iosevka', 'Courier New', monospace; overflow: hidden; }
+        html, body { background: #000; height: 100%; font-family: 'Times New Roman', serif; overflow: hidden; }
         body { display: flex; align-items: center; justify-content: center; }
         .shell {
             display: flex;
@@ -48,6 +41,10 @@
             white-space: pre;
             overflow: hidden;
             height: 100%;
+            font-weight: 900;
+            text-transform: uppercase;
+            transform: scale(1, 1.5);
+            transform-origin: top left;
         }
         .term-inner .dim { color: rgba(83, 234, 94, 0.25); }
         .term-inner .bright { color: rgba(83, 234, 94, 0.9); }
